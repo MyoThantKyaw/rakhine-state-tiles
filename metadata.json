@@ -1,0 +1,14 @@
+{
+"name": "tiles",
+"description": "tiles",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "14",
+"center": "94.361572,18.364952,14",
+"bounds": "91.943582,17.137722,95.098779,21.699304",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -z14 --force -e tiles --no-tile-compression state.geojson",
+"vector_layers": [ { "id": "state", "description": "", "minzoom": 0, "maxzoom": 14, "fields": {"id": "String", "name": "String"} } ],"tilestats": {"layerCount": 1,"layers": [{"layer": "state","count": 8,"geometry": "Polygon","attributeCount": 2,"attributes": [{"attribute": "id","count": 8,"type": "string","values": ["1","2","3","4","5","6","7","8"]},{"attribute": "name","count": 4,"type": "string","values": ["Ocean","Other States","Others","Rakhine"]}]}]}
+}
